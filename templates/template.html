@@ -1,0 +1,24 @@
+<!-- template.html -->
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Python Website Demo</title>
+</head>
+
+<body>
+  <video class="video-background" autoplay loop muted>
+    <source src="../static/mixkit-pink-sunset-seen-from-a-plane-window-4204-medium.mp4" type="video/mp4">
+    <!-- Add other video formats here for cross-browser compatibility -->
+  </video>
+
+  <div class="center">
+    <h1>CLOUD WINGS</h1>
+  </div>
+  <div class="center">
+    {% block body %} {% endblock %}
+  </div>
+</body>
+
+</html>
